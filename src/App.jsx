@@ -1,13 +1,11 @@
 import './App.css'
-import { Estebes } from './pages/Estebes'
+//import { Estebes } from './pages/Estebes'
 import { Akas } from './pages/Akas'
-import { Banner } from './components/Banner'
 
 function App() {
     return (
         <div>
-            <Banner />
-            <Estebes />
+            {/* <Estebes /> */}
             <Akas />
         </div>
     )
