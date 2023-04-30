@@ -1,6 +1,6 @@
 export function Description(props) {
     return (
-        <div className="container grid grid-cols-1 gap-10 lg:grid-cols-9">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-9">
             <div className="lg:col-span-5">
                 <img
                     src={props.image}

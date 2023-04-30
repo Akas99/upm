@@ -1,4 +1,11 @@
+import image1 from '../assets/images/image14.jpg'
+import { Description } from './Description'
+
 const ColorEdition = () => {
-    return <div className="h-4 w-full bg-fuchsia-800"></div>
+    return (
+        <div>
+            <Description image={image1} />
+        </div>
+    )
 }
 export default ColorEdition
