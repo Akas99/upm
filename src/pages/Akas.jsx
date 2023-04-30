@@ -1,3 +1,15 @@
+import Banner from '../components/Banner'
+//import { Routes, Route } from 'react-router-dom'
+import SubBanner from '../components/SubBanner'
+
 export const Akas = () => {
-    return <div className="text-red-500">Akas</div>
+    return (
+        <>
+            <Banner />
+            <SubBanner />
+            {/* <Routes>
+                <Route path="/" element={<Banner />} />
+            </Routes> */}
+        </>
+    )
 }
