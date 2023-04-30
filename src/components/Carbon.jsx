@@ -1,4 +1,11 @@
+import image1 from '../assets/images/image12.jpg'
+import { Description } from './Description'
+
 const Carbon = () => {
-    return <div className="h-4 w-full bg-red-950"></div>
+    return (
+        <div>
+            <Description image={image1} />
+        </div>
+    )
 }
 export default Carbon
