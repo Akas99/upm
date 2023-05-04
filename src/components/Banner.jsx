@@ -9,10 +9,10 @@ const Banner = () => {
                 alt="bg"
             />
             <div className="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center bg-black/50">
-                <h2 className="text-center text-[36px] font-[600] text-white underline">
+                {/* <h2 className="text-center text-[36px] font-[600] text-white underline">
                     THE ULTIMATE EXPERIENCE OF PROTECTION
-                </h2>
-                <h1 className="text-[64px] font-[700] text-white">ADILET</h1>
+                </h2> */}
+                <h1 className="text-[120px] font-[700] text-white">UBP</h1>
             </div>
         </div>
     )
