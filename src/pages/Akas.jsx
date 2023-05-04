@@ -10,6 +10,10 @@ export const Akas = () => {
             {/* <Routes>
                 <Route path="/" element={<Banner />} />
             </Routes> */}
+            <div className="container pb-10 text-[18px] italic">
+                <span>Контакты:</span>{' '}
+                <a href="mailto:sabirdinov97@inbox.ru">sabirdinov97@inbox.ru</a>
+            </div>
         </>
     )
 }
